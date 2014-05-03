@@ -1,0 +1,56 @@
+{
+	"name": "panel-component",
+	"version": "1.0.0",
+	"description": "A component for building a panel-based UI",
+	"license": "MIT",
+	"main": "index.js",
+	"repository": "darryl-snow/panel-component",
+	"author": {
+		"name": "Darryl Snow",
+		"email": "dazsnow@gmail.com",
+		"url": "https://github.com/darryl-snow"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"scripts": {
+		"start": "gulp build",
+		"test": "gulp test"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"component, panel, panels, UI"
+	],
+	"dependencies": {
+	},
+	"devDependencies": {
+		"coffeeify": "latest",
+		"coffee-script": "latest",
+		"connect": "latest",
+		"connect-livereload": "latest",
+		"express": "latest",
+		"gulp": "latest",
+		"gulp-autoprefixer": "latest",
+		"gulp-browserify": "latest",
+		"gulp-coffee": "latest",
+		"gulp-component": "latest",
+		"gulp-header": "latest",
+		"gulp-jade": "latest",
+		"gulp-jasmine": "latest",
+		"gulp-load-plugins": "latest",
+		"gulp-livereload": "latest",
+		"gulp-plumber": "latest",
+		"gulp-stylus": "latest",
+		"gulp-util": "latest",
+		"gulp-watch": "latest",
+		"open": "latest",
+		"path": "latest",
+		"run-sequence": "latest",
+		"tiny-lr": "latest"
+	},
+	"peerDependencies": {
+		"component": ">=0.19.9"
+	}
+}

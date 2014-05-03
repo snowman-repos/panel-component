@@ -1,0 +1,17 @@
+{
+	"name": "panel-component",
+	"repo": "darryl-snow/panel-component",
+	"description": "UI panels",
+	"version": "1.0.0",
+	"keywords": ["UI", "panel", "panels"],
+	"dependencies": {},
+	"development": {},
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": [
+		"index.js"
+	],
+	"styles": [
+		"panel.css"
+	]
+}
